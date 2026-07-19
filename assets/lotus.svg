@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 100" width="100%" height="100%">
+  <defs>
+    <linearGradient id="gold-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#AA771C" />
+      <stop offset="20%" stop-color="#FBF5B7" />
+      <stop offset="40%" stop-color="#B38728" />
+      <stop offset="60%" stop-color="#FCF6BA" />
+      <stop offset="80%" stop-color="#BF953F" />
+      <stop offset="100%" stop-color="#AA771C" />
+    </linearGradient>
+    <filter id="gold-glow">
+      <feGaussianBlur stdDeviation="1.5" result="blur" />
+      <feComponentTransfer in="blur" result="glow1">
+        <feFuncA type="linear" slope="0.5"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode in="glow1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <g fill="none" stroke="url(#gold-grad)" stroke-width="1.5" filter="url(#gold-glow)">
+    <!-- Base / Water Waves -->
+    <path d="M 25,85 C 45,88 75,88 95,85" stroke-width="1" />
+    <path d="M 35,89 C 50,91 70,91 85,89" stroke-width="0.75" stroke-opacity="0.7" />
+    
+    <!-- Outer Left Petal -->
+    <path d="M 60,83 C 32,75 10,58 25,43 C 35,38 48,50 60,83 Z" fill="url(#gold-grad)" fill-opacity="0.05" />
+    
+    <!-- Outer Right Petal -->
+    <path d="M 60,83 C 88,75 110,58 95,43 C 85,38 72,50 60,83 Z" fill="url(#gold-grad)" fill-opacity="0.05" />
+    
+    <!-- Inner Left Petal -->
+    <path d="M 60,83 C 40,68 25,50 38,33 C 45,28 52,45 60,83 Z" fill="url(#gold-grad)" fill-opacity="0.05" />
+    
+    <!-- Inner Right Petal -->
+    <path d="M 60,83 C 80,68 95,50 82,33 C 75,28 68,45 60,83 Z" fill="url(#gold-grad)" fill-opacity="0.05" />
+    
+    <!-- Center Petal -->
+    <path d="M 60,83 C 52,60 48,42 60,20 C 72,42 68,60 60,83 Z" fill="url(#gold-grad)" fill-opacity="0.1" stroke-width="2" />
+    
+    <!-- Subtle Stamen lines inside the center -->
+    <path d="M 60,83 Q 56,65 54,58" stroke-width="1" opacity="0.6" />
+    <path d="M 60,83 Q 64,65 66,58" stroke-width="1" opacity="0.6" />
+    
+    <!-- Tiny Lotus Seeds/Embers rising -->
+    <circle cx="60" cy="14" r="1.5" fill="url(#gold-grad)" stroke="none" />
+    <circle cx="53" cy="18" r="1" fill="url(#gold-grad)" stroke="none" />
+    <circle cx="67" cy="18" r="1" fill="url(#gold-grad)" stroke="none" />
+  </g>
+</svg>

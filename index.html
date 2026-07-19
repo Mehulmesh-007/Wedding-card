@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="You are cordially invited to the sacred union of Sneha and Shubham. A luxury cinematic Buddhist wedding invitation.">
+  <title>Sneha &amp; Shubham — The Sacred Union</title>
+
+  <!-- Premium Stylesheets -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Film Grain Overlay (High-end matte cotton paper texture) -->
+  <div class="grain-overlay"></div>
+
+  <!-- Cinematic Vignette Overlay -->
+  <div class="cinematic-vignette"></div>
+
+  <!-- God Rays Layer (Champagne sunbeams) -->
+  <div class="god-rays"></div>
+
+  <!-- Drifting Mist Layer (Morning light fog) -->
+  <div class="mist-overlay">
+    <div class="mist-flow"></div>
+  </div>
+
+  <!-- Floating Canvas Particles -->
+  <canvas id="particles-canvas"></canvas>
+
+  <!-- Cinematic Background Visual -->
+  <div class="cinematic-background" id="parallax-bg"></div>
+
+  <!-- Hidden YouTube Player Container -->
+  <div id="yt-player" style="position: absolute; width: 0; height: 0; opacity: 0; pointer-events: none;"></div>
+
+  <!-- Header Controls -->
+  <header>
+    <div class="header-logo">
+      <span class="gold-foil embossed"
+        style="font-family: var(--font-display); font-size: 1.1rem; letter-spacing: 0.2rem;">S &amp; S</span>
+    </div>
+
+  </header>
+
+  <!-- Main Scrollable Content -->
+  <div class="content-wrapper">
+
+    <!-- 1. HERO INTRO (Movie Poster Style) -->
+    <section class="hero-section" id="section-hero">
+      <div class="hero-vignette"></div>
+
+      <h2 class="invitation-subtitle" style="margin-bottom: 0.5rem;">You Are Invited</h2>
+      <p
+        style="font-family: var(--font-sans); font-size: 0.75rem; letter-spacing: 0.25rem; text-transform: uppercase; color: var(--text-muted); margin-bottom: 2rem; font-weight: 500;">
+        To Our Wedding</p>
+
+      <div class="wedding-names">
+        <h1 class="bride-name gold-foil embossed">Sneha</h1>
+        <span class="infinity-symbol">&amp;</span>
+        <h1 class="groom-name gold-foil embossed">Shubham</h1>
+      </div>
+
+      <p
+        style="font-family: var(--font-sans); font-size: 0.95rem; font-style: italic; color: var(--ivory); letter-spacing: 0.05rem; margin-top: 1.5rem; max-width: 480px; line-height: 1.6; font-weight: 500;">
+        12 pm official registered marriage<br>
+        6 pm ceremonial events and ring ceremony
+      </p>
+
+      <!-- Custom Image-accurate Date Block -->
+      <div class="invitation-date-block">
+        <div class="date-month-year">July</div>
+        <div class="date-main-row">
+          <div class="date-day-name">Tuesday</div>
+          <div class="date-number">21</div>
+          <div class="date-time-info">06 PM</div>
+        </div>
+        <div class="date-month-year" style="margin-top: 0.2rem;">2026</div>
+      </div>
+
+      <p
+        style="font-family: var(--font-sans); font-size: 0.75rem; letter-spacing: 0.15rem; text-transform: uppercase; color: var(--saffron); font-weight: 600; margin-top: 0.8rem; max-width: 480px; line-height: 1.8;">
+        Ramanadan Hall, Near Adharsh Petrol Pump,<br>Chandrapur
+      </p>
+
+      <div class="scroll-indicator">
+        <span class="scroll-text">Enter the Sanctuary</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- 2. THE SACRED UNION (Philosophical Quote) -->
+    <section class="reveal" id="section-union" style="min-height: 80vh;">
+      <div class="card-wrapper">
+        <!-- Corner Borders -->
+        <div class="card-corner corner-tl"></div>
+        <div class="card-corner corner-tr"></div>
+        <div class="card-corner corner-bl"></div>
+        <div class="card-corner corner-br"></div>
+
+        <div class="quote-container">
+          <!-- Arched Frame Illustration -->
+          <div class="card-illustration-frame">
+            <img src="assets/5D Serene Buddha Wallpaper _ _ Home Decor Digital Download.jpeg" class="card-illustration"
+              alt="Serene Buddha and Monk looking up through mist">
+          </div>
+
+          <!-- Dharma Wheel vector -->
+          <img src="assets/dharma_wheel.svg" class="dharma-wheel-emblem" alt="Sacred Dharma Wheel of Wisdom">
+
+          <blockquote class="sacred-quote">
+            "In the journey of life, when two paths converge under the light of wisdom, they build a sanctuary of peace,
+            balance, and infinite grace."
+          </blockquote>
+
+          <cite class="sacred-author">— Lord Buddha</cite>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. THE SACRED TIMELINE (Events) -->
+    <section class="reveal" id="section-events">
+      <div class="card-wrapper">
+        <div class="card-corner corner-tl"></div>
+        <div class="card-corner corner-tr"></div>
+        <div class="card-corner corner-bl"></div>
+        <div class="card-corner corner-br"></div>
+
+        <h2 class="section-title gold-foil embossed">The Journey</h2>
+
+        <div class="timeline">
+
+          <!-- Event 1 -->
+          <div class="timeline-event">
+            <img src="assets/lotus.svg" class="event-icon" alt="Lotus symbol">
+            <h3 class="event-name gold-foil">Registered Marriage</h3>
+            <div class="event-details">
+              <span class="event-time">Official Union at 12:00 PM</span>
+              <span>Tuesday, July 21, 2026</span>
+              <span class="event-venue">Ramanadan Hall, Near Adharsh Petrol Pump, Chandrapur</span>
+            </div>
+          </div>
+
+          <!-- Event 2 -->
+          <div class="timeline-event">
+            <img src="assets/lotus.svg" class="event-icon" alt="Lotus symbol">
+            <h3 class="event-name gold-foil">Ceremonial Events &amp; Ring Ceremony</h3>
+            <div class="event-details">
+              <span class="event-time">Celebration at 06:00 PM</span>
+              <span>Tuesday, July 21, 2026</span>
+              <span class="event-venue">Ramanadan Hall, Near Adharsh Petrol Pump, Chandrapur</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. THE INVITATION -->
+    <section class="reveal" id="section-family">
+      <div class="card-wrapper">
+        <div class="card-corner corner-tl"></div>
+        <div class="card-corner corner-tr"></div>
+        <div class="card-corner corner-bl"></div>
+        <div class="card-corner corner-br"></div>
+
+        <h2 class="section-title gold-foil embossed">Invitations</h2>
+
+        <div class="quote-container" style="margin-top: 1.5rem;">
+          <p
+            style="font-family: var(--font-serif); font-size: 1.8rem; font-weight: 500; color: var(--ivory); line-height: 1.6; margin-bottom: 2rem;">
+            Kamble Family Invites
+          </p>
+
+          <img src="assets/lotus.svg" class="divider-lotus" alt="Lotus symbol">
+
+          <p
+            style="font-family: var(--font-serif); font-size: 0.95rem; font-style: italic; color: var(--text-muted); line-height: 1.6; margin-top: 1.5rem; max-width: 480px; margin-left: auto; margin-right: auto;">
+            "We invite you to share in this holy circle of love and witness the beginning of our new path together."
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. SANCTUARY COORDINATES (Directions & Closing) -->
+    <section class="reveal" id="section-coordinates" style="padding-bottom: 8rem;">
+      <div class="card-wrapper">
+        <div class="card-corner corner-tl"></div>
+        <div class="card-corner corner-tr"></div>
+        <div class="card-corner corner-bl"></div>
+        <div class="card-corner corner-br"></div>
+
+        <h2 class="section-title gold-foil embossed">Coordinates</h2>
+
+        <div class="quote-container" style="margin-top: 1rem;">
+          <!-- Arched Frame Illustration -->
+          <div class="card-illustration-frame">
+            <img src="assets/1477812375248526.jpeg" class="card-illustration"
+              alt="Giant seated Buddha statue in the misty mountains">
+          </div>
+
+          <p
+            style="font-family: var(--font-sans); font-size: 0.75rem; letter-spacing: 0.2rem; text-transform: uppercase; color: var(--gold-mid); font-weight: 600; margin-bottom: 1.5rem;">
+            Location Details
+          </p>
+          <p
+            style="font-family: var(--font-serif); font-size: 1.2rem; color: var(--ivory); line-height: 1.8; margin-bottom: 2.5rem; max-width: 500px;">
+            The union will be celebrated at Ramanadan Hall, Chandrapur. Scan below for interactive maps and GPS
+            coordinates to guide your journey to our sanctuary.
+          </p>
+        </div>
+
+        <!-- QR Location Code Container -->
+        <div class="card-footer">
+          <div class="qr-container"><a href="https://share.google/blRkrz0DXYqBnbKcd" target="_blank" rel="noopener">
+            <div class="qr-box">
+              <!-- Symmetrical Geometric Lotus QR code representation -->
+              <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                <!-- Outer Corners -->
+                <rect x="5" y="5" width="25" height="25" fill="none" stroke="currentColor" stroke-width="4" />
+                <rect x="10" y="10" width="15" height="15" fill="currentColor" />
+
+                <rect x="70" y="5" width="25" height="25" fill="none" stroke="currentColor" stroke-width="4" />
+                <rect x="75" y="10" width="15" height="15" fill="currentColor" />
+
+                <rect x="5" y="70" width="25" height="25" fill="none" stroke="currentColor" stroke-width="4" />
+                <rect x="10" y="75" width="15" height="15" fill="currentColor" />
+
+                <!-- Symmetrical grid blocks representation -->
+                <path d="M 40,5 L 60,5 M 40,15 L 45,15 M 55,15 L 60,15 M 40,25 L 50,25 M 50,20 L 50,30"
+                  stroke="currentColor" stroke-width="3" stroke-linecap="square" />
+                <path d="M 5,40 L 5,60 M 15,40 L 25,40 M 25,50 L 30,50 M 15,60 L 30,60" stroke="currentColor"
+                  stroke-width="3" stroke-linecap="square" />
+                <path d="M 70,40 L 95,40 M 80,45 L 80,60 M 90,50 L 95,50 M 70,60 L 75,60" stroke="currentColor"
+                  stroke-width="3" stroke-linecap="square" />
+                <path d="M 40,70 L 40,95 M 45,80 L 60,80 M 55,90 L 60,95 C 60,95 60,90 60,90" stroke="currentColor"
+                  stroke-width="3" stroke-linecap="square" />
+
+                <!-- Zen/Lotus outline in center -->
+                <path d="M 50,38 C 45,45 42,50 50,62 C 58,50 55,45 50,38 Z" fill="none" stroke="currentColor"
+                  stroke-width="2" />
+                <path d="M 50,62 C 42,58 38,55 38,50 C 38,45 45,47 50,62 Z" fill="none" stroke="currentColor"
+                  stroke-width="1.5" />
+                <path d="M 50,62 C 58,58 62,55 62,50 C 62,45 55,47 50,62 Z" fill="none" stroke="currentColor"
+                  stroke-width="1.5" />
+
+                <rect x="75" y="75" width="5" height="5" fill="currentColor" />
+                <rect x="85" y="85" width="10" height="10" fill="currentColor" />
+                <rect x="80" y="80" width="5" height="5" fill="currentColor" />
+                <rect x="90" y="75" width="5" height="5" fill="currentColor" />
+              </svg>
+            </div></a>
+            <span class="qr-caption">Scan for Sanctuary Coordinates</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Client-Side Scripts -->
+  <script src="script.js"></script>
+</body>
+
+</html>
