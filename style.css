@@ -320,6 +320,19 @@ section {
   display: block;
 }
 
+/* Ensure names are plain black on white backgrounds (override foil/text-clip) */
+.bride-name.gold-foil, .groom-name.gold-foil,
+.bride-name.embossed, .groom-name.embossed {
+  background: none !important;
+  -webkit-background-clip: unset !important;
+  -webkit-text-fill-color: unset !important;
+  background-clip: unset !important;
+  color: #000 !important;
+  text-shadow: none !important;
+  filter: none !important;
+  animation: none !important;
+}
+
 .infinity-symbol {
   font-family: var(--font-serif);
   font-size: clamp(2rem, 5vw, 4rem);
