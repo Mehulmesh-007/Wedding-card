@@ -315,6 +315,7 @@ section {
   font-size: clamp(3rem, 8vw, 7rem);
   font-weight: 700; /* Bolder weight for light mode legibility */
   letter-spacing: 0.2rem;
+  color: Black;
   line-height: 1.1;
   display: block;
 }
@@ -322,7 +323,7 @@ section {
 .infinity-symbol {
   font-family: var(--font-serif);
   font-size: clamp(2rem, 5vw, 4rem);
-  color: var(--gold-mid);
+  color: var(--black);
   margin: 1.5rem 0;
   font-weight: 300;
   opacity: 0.9;
